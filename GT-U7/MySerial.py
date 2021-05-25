@@ -5,9 +5,9 @@ import serial
 
 class MySerial:
 
-    def __init__(self):
+    ser = None
 
-        self.ser = None
+    def __init__(self):
 
         while self.ser is not None:
 
